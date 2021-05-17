@@ -73,3 +73,11 @@ BEGIN
 
 	SELECT ColumnName, ColumnValue FROM #Results
 END
+
+
+CREATE PROC SearchAllTables
+(
+	@SearchStr nvarchar(100)
+)
+AS
+BEGIN
