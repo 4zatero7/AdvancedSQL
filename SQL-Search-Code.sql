@@ -83,6 +83,6 @@ SELECT ColumnName, ColumnValue FROM @Results
 END
 GO
 
-/*
+/*Usage*/
 Usage: EXEC SearchAllTables 'keyword'
-*/
+
