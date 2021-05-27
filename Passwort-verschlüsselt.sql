@@ -19,7 +19,7 @@ INSERT INTO [DB].[dbo].[CREATE_User]
      VALUES (
              'Azat Erol',
              'azat.erol@email.com',
-              ENCRYPTBYKEY(key_guid('SQLSymmetricKey'),'Admin'),                /*ONLINEDOZENT ist nur die ROLLE, sS geht auch z.B.: User*/
+              ENCRYPTBYKEY(key_guid('SQLSymmetricKey'),'Admin'),                /*Admin ist nur die ROLLE, es geht auch z.B.: User*/
              3,                                                                 /*Von 1-3 Rechte die vergeben werden können, wobei 1 Admin ist*/
              'N',
              0,
