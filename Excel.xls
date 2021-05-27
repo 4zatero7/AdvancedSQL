@@ -6,4 +6,4 @@ Always happy coding!
   Im englischen statt VERKETTEN = CONCAT
   Der Bereich geht von A1 - A10, B1 - B10, usw...) Bei varchar, char muss darauf geachtet werden ein zusätzliches ' zu setzen
 */
-=VERKETTEN("INSERT INTO [dbo].[DBTabelle] ([ID],[Name],[Alter],[Ort] VALUES(";A1:A10;",'";B1:B10;"',";C1:C10;",'";D1:D10;"')")
+=VERKETTEN("INSERT INTO [dbo].[DBTabelle] ([ID],[Name],[Alter],[Ort]) VALUES(";A1:A10;",'";B1:B10;"',";C1:C10;",'";D1:D10;"')")
